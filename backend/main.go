@@ -12,5 +12,7 @@ func main() {
 
 	api.Get("/login", routes.UserLogin)
 
+	api.Get("/profiles", routes.GetProfiles)
+
 	app.Listen(":8080")
 }

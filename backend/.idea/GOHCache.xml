@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="Menu">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/pkg/routes/menu.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Profile">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/pkg/routes/profiles.go" />
+              <option value="file://$PROJECT_DIR$/pkg/routes/routes.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1693008971810" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pkg/routes/login.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1693009098842" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pkg/routes/menu.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1693008842067" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pkg/routes/profiles.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1693010655163" />
+              <option name="schema">
+                <list>
+                  <option value="Profile" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pkg/routes/routes.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1693011969511" />
+              <option name="schema">
+                <list>
+                  <option value="Profile" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="menu" value="Menu" />
+        <entry key="profile" value="Profile" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1693008224276" />
+  </component>
+</project>
