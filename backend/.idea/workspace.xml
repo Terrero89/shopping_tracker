@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="013bde80-f082-4666-96d4-c5647a2bd1e5" name="Changes" comment="" />
+    <list default="true" id="013bde80-f082-4666-96d4-c5647a2bd1e5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../frontend/components/UI/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/components/UI/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/components/UI/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/components/UI/Navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/components/profile/form.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/components/profile/form.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2UUxzdKWXsjs2yiwFDCAGko1EBl" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,11 +46,17 @@
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/home/terrero/Documents/2- Web Development/FullStack/shopping_tracker/backend",
+    "last_opened_file_path": "/home/terrero/Documents/Web Development/Fullstack/shopping_tracker/backend",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmd/web" />
+      <recent name="$PROJECT_DIR$/cmd" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />

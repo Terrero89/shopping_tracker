@@ -14,12 +14,12 @@ package routes
 // 	Email string `json:"email"`
 // 	Gender string `json:"gender"`
 // 	Age string `json:"age"`
-// 	Phone string `json:"phone"`	
+// 	Phone string `json:"phone"`
 // 	DateCreated string `json:"dateCreated"`
 // 	dateUpdated string `json:"dateUpdated"`
 // 	isAdmin bool `json:"isAdmin"`
 // 	isActive bool `json:"isActive"`
-	
+
 // }
 
 // Profiles := []Profile{
@@ -39,7 +39,6 @@ package routes
 // }
 
 // func GetProfiles(c *fiber.Ctx) error {
-	
+
 // 	return c.JSON(profiles)
 // }
-

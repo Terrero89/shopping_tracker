@@ -17,10 +17,7 @@
               d="M7 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-1zM0 12a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm7-1.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-1zm0-5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zM3 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm0 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"
             /></svg
         ></NuxtLink>
-        <NuxtLink
-          class="nav-link active"
-          aria-current="tasks-page"
-          to="#"
+        <NuxtLink class="nav-link active" aria-current="tasks-page" to="#"
           ><svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -41,8 +38,12 @@
               d="M1.5 7a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5V7zM2 7h1v1H2V7zm0 3.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5H2zm1 .5H2v1h1v-1z"
             /></svg
         ></NuxtLink>
-        <NuxtLink class="nav-link active" aria-current="page" to="#
-        ">
+        <NuxtLink
+          class="nav-link active"
+          aria-current="page"
+          to="#
+        "
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -61,11 +62,7 @@
               d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z"
             /></svg
         ></NuxtLink>
-        <NuxtLink
-          class="nav-link active"
-          aria-current="/"
-          to="#"
-        >
+        <NuxtLink class="nav-link active" aria-current="/" to="#">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -85,24 +82,15 @@
 </template>
 
 <style scoped>
-/* .mr {
-  margin-left: auto;
-}
-.navbar {
-  z-index: 100;
-  background-color: rgb(13, 1, 117);
-} */
-
 .nav-link {
   margin: 0 1.2rem;
 }
-.icons {
-}
+
 .navbar {
   z-index: 1000;
-  border-radius: 10px 10px 0 0;
+ /* border-radius: 10px 10px 0 0;*/
   overflow: hidden;
- background-color: #0bb1fd;
+  background-color: #313131;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -132,9 +120,9 @@
   .icons {
     display: none;
   }
-} 
+}
 
- @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .navbar.responsive .icon {
     position: absolute;
     right: 0;
@@ -145,5 +133,5 @@
     display: block;
     text-align: left;
   }
-} 
+}
 </style>

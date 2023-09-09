@@ -134,7 +134,7 @@ const submitForm = () => {
 
 .form {
   border: solid rgb(233, 233, 233) 1px;
-  max-width: 25rem;
+  max-width: 35rem;
   margin: 0 auto;
   padding: 1.5rem 1rem;
   border-radius: 10px;
