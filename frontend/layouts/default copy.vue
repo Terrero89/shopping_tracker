@@ -1,7 +1,7 @@
 <template>
     <div>
 <UINavbar></UINavbar>
-default layout
+admin
         <slot />
         <UIFooter/>
     </div>

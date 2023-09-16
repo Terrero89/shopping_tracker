@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import {ref, reactive} from 'vue'
 import { useUsersStore } from "@/stores/users";
 import { useAuthStore } from "@/stores/auth";
 
@@ -46,8 +47,8 @@ const submitForm = () => {
       <p>{{ authStore.isAuthenticated }}</p>
 
       <button class="submit-btn" type="submit">Login</button>
-      <div>
-        <span>Not a member?</span>
+      <div class="input2">
+        <span >Not a member?</span>
         <NuxtLink to="/signup"> signup here</NuxtLink>
       </div>
     </form>
@@ -59,12 +60,13 @@ const submitForm = () => {
   background-color: rgb(96, 150, 252);
 
   border: solid rgb(240, 240, 240) 1px;
-  padding: 0.7rem 2rem;
+  padding: 1.35rem 2rem;
   border-radius: 5px;
-  margin: 2rem 0;
+  margin: 3.5rem 0;
   color: black;
   width: 100%;
   color: white;
+  font-size: 1.5rem;
 }
 
 .submit-btn:hover {
@@ -76,8 +78,8 @@ const submitForm = () => {
 
 .form {
   border: solid rgb(233, 233, 233) 1px;
-  max-width: 30rem;
-  height: 35rem;
+  max-width: 45rem;
+  height: auto;
   margin: 0 auto;
   padding: 4rem 2rem;
   border-radius: 10px;
@@ -99,5 +101,11 @@ const submitForm = () => {
 
 .input {
   margin: 1.52em 0;
+  font-size: 1.8rem;
+}
+
+.input2{
+
+  font-size: 1.5rem;
 }
 </style>

@@ -1,8 +1,8 @@
 <template>
-    <div>
-        ADMIN LAYOUT
-        <slot />
-    </div>
+  <div>
+    <UINavbar></UINavbar>
+    admin
+    <slot />
+    <UIFooter />
+  </div>
 </template>
-<script setup lang="ts">
-</script>

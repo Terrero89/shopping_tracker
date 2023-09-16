@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import { ref, reactive } from "vue";
 import { useUsersStore } from "@/stores/users";
 import { useAuthStore } from "@/stores/auth";
 
@@ -119,11 +120,12 @@ const submitForm = () => {
 <style scoped>
 .submit-btn {
   border: solid rgb(240, 240, 240) 1px;
-  padding: 0.7rem 2rem;
+  padding: 1.2rem 4rem;
   border-radius: 5px;
   margin: 2rem 0;
   color: black;
   width: 100%;
+  font-size: 1.5rem;
 }
 
 .submit-btn:hover {
@@ -134,7 +136,7 @@ const submitForm = () => {
 
 .form {
   border: solid rgb(233, 233, 233) 1px;
-  max-width: 35rem;
+  max-width: 50rem;
   margin: 0 auto;
   padding: 1.5rem 1rem;
   border-radius: 10px;
@@ -147,11 +149,11 @@ const submitForm = () => {
 }
 
 .label {
-  font-size: 0.8rem;
+  font-size: 1.4rem;
 }
 
 .label2 {
   margin-right: 1rem;
-  font-size: 0.8rem;
+  font-size: 1.4rem;
 }
 </style>

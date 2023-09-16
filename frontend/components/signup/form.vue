@@ -149,12 +149,13 @@ const { data: emails } = await useFetch("https://reservation-system-api-default-
   background-color: rgb(96, 150, 252);
 
   border: solid rgb(240, 240, 240) 1px;
-  padding: 0.7rem 2rem;
+  padding: 1.35rem 2rem;
   border-radius: 5px;
-  margin: 2rem 0;
+  margin: 3.5rem 0;
   color: black;
   width: 100%;
   color: white;
+  font-size: 1.5rem;
 }
 
 .submit-btn:hover {
@@ -164,17 +165,16 @@ const { data: emails } = await useFetch("https://reservation-system-api-default-
   color: white;
 }
 
-
 .form {
   border: solid rgb(233, 233, 233) 1px;
-  max-width: 28rem;
+  max-width: 45rem;
+  height: auto;
   margin: 0 auto;
-  padding: 1.5rem 1rem;
+  padding: 4rem 2rem;
   border-radius: 10px;
   background-color: white;
   box-shadow: 5px 5px 17px 5px rgba(0, 0, 0, 0.1);
 }
-
 @media screen and (min-width: 768px) {
   .form {
     padding: 4rem 2rem;
@@ -188,12 +188,13 @@ const { data: emails } = await useFetch("https://reservation-system-api-default-
   }
 }
 
-.error-log {
-  color: red;
-  font-size: 0.8rem;
+.input {
+  margin: 1.52em 0;
+  font-size: 1.8rem;
 }
 
-.input {
-  margin-top: 1.52em;
+.input2{
+
+  font-size: 1.5rem;
 }
 </style>
